@@ -1,0 +1,32 @@
+#companylogo a{
+    background-image: url("Images/header-logo.jpg");
+    background-repeat: no-repeat;
+    display: block;
+    width: 1000px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    
+    background-image: ;
+}
+
+
+
+#comapnylogo span{
+    font-size: 30px;
+    visibility: hidden;
+    color: aqua;
+
+    #Search-container {
+        margin: 20px; 
+        text-align: center;
+
+    }
+    #search-bar {
+        padding: 10px;
+        font-size: 16px;
+        width: 300px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 10px;
+    }
