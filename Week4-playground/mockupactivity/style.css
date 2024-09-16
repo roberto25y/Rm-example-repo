@@ -31,3 +31,12 @@
         margin-left: 10px;
     }
     background-color: red;
+
+    #boxes-container {
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        height: calc(100vh - 60px); 
+        margin: 0 auto; 
+        gap: 20px; 
+    }
