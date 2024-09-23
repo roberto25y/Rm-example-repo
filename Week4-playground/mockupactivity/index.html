@@ -3,75 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mockup Activity</title>
-    <link rel="stylesheet" href="style.css"/>
+    <title>Roberto Maqueira - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-   
-    <h1 id="companylogo">
-        <a title="Econor Homepage" href="index.html">
-            <span>Econor Example Homepage</span>
-        </a>
-    </h1>
+    <header>
+        <h1>Roberto Maqueira</h1>
+        <p>Web Developer | Designer</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    
-    <div id="search-container">
-        <form action="/search" method="get">
-            <select id="header-search-categories" name="categories">
-                <option value="">All Categories</option>
-                <option value="cat1">Category 1</option>
-                <option value="cat2">Category 2</option>
-            </select>
-            <input id="header-search-field" type="text" name="query" placeholder="Search all categories...">
-            <button id="header-search-button" type="submit">Search</button>
-        </form>
-    </div>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my portfolio! I am Roberto Maqueira, a passionate web developer eager to create impactful digital experiences.</p>
+    </section>
 
-    
-    <div id="boxes-container">
-        <div class="box"></div>
-        <div class="box"></div>
-    </div>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Communication</li>
+            <li>Teamwork</li>
+        </ul>
+    </section>
 
-    
-    <button id="continue-button">Continue</button>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>You can reach me at: <a href="mailto:roberto@example.com">roberto@example.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Roberto Maqueira</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
-<html lang="en"></html>
+html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mockup Activity</title>
-    <link rel="stylesheet" href="style.css"/>
+    <title>Roberto Maqueira - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
-    <h1 id="companylogo">
-        <a title="Portfolio" href="index.html">
-            <span>Portfolio</span>
-        </a>
-    </h1>
+    <header>
+        <h1>Roberto Maqueira</h1>
+        <p>Web Developer | Designer</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    
-    <div id="search-container">
-        <form action="/search" method="get">
-            <select id="header-search-categories" name="categories">
-                <option value="">All Categories</option>
-                <option value="cat1">Category 1</option>
-                <option value="cat2">Category 2</option>
-            </select>
-            <input id="header-search-field" type="text" name="query" placeholder="Search all categories...">
-            <button id="header-search-button" type="submit">Search</button>
-        </form>
-    </div>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my portfolio! I am Roberto Maqueira, a passionate web developer eager to create impactful digital experiences.</p>
+        <button class="next-btn" onclick="scrollToNext('skills')">Next</button>
+    </section>
 
-    
-    <div id="boxes-container">
-        <div class="box"></div>
-        <div class="box"></div>
-    </div>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Communication</li>
+            <li>Teamwork</li>
+        </ul>
+        <button class="next-btn" onclick="scrollToNext('contact')">Next</button>
+    </section>
 
-    
-    <button id="continue-button">Continue</button>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>You can reach me at: <a href="mailto:roberto@example.com">roberto@example.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Roberto Maqueira</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
