@@ -14,6 +14,7 @@
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -29,18 +30,76 @@
         <ul>
             <li>Communication</li>
             <li>Teamwork</li>
+            <li>JavaScript</li>
+            <li>Web Development</li>
         </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-gallery">
+            <div class="project-card" onclick="toggleDetails('project1-details')">
+                <h3>Project 1</h3>
+                <p>A brief description of Project 1.</p>
+                <div class="details" id="project1-details">
+                    <p>More details about Project 1...</p>
+                </div>
+            </div>
+            <div class="project-card" onclick="toggleDetails('project2-details')">
+                <h3>Project 2</h3>
+                <p>A brief description of Project 2.</p>
+                <div class="details" id="project2-details">
+                    <p>More details about Project 2...</p>
+                </div>
+            </div>
+            <div class="project-card" onclick="toggleDetails('project3-details')">
+                <h3>Project 3</h3>
+                <p>A brief description of Project 3.</p>
+                <div class="details" id="project3-details">
+                    <p>More details about Project 3...</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="contact">
         <h2>Contact Me</h2>
-        <p>You can reach me at: <a href="mailto:robertomaqueira14.com">roberto@example.com</a></p>
+        <p>You can reach me at: <a href="mailto:roberto@example.com">roberto@example.com</a></p>
     </section>
 
     <footer>
         <p>&copy; 2024 Roberto Maqueira</p>
     </footer>
 
-    <scrip
-<t src="script.js"></script>
-</body>/html>
+    <script src="script.js"></script>
+</body>
+</html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills Summary</title>
+    <style>
+        #skillsSummary {
+            display: none;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        button {
+            padding: 10px 15px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <button id="summaryButton">Summarize My Skills</button>
+
+    <div id="skillsSummary">
+        <h3>Summary of Skills</h3>
+        <strong>Technical Skills:</strong> HTML, CSS, JavaScript, Python<br>
+        <strong>Soft Skills:</strong> Communication, Teamwork, Problem-solving<br>
+        <strong>Certifications:</strong> Certified Web Developer, Project Management<br>
+        <strong>Languages:</strong> English, Spanish
+    </div>

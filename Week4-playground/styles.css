@@ -6,8 +6,8 @@ body {
 }
 
 header {
-    background: #301996;
-    color: rgb(207, 13, 13);
+    background: #4CAF50;
+    color: white;
     padding: 20px;
     text-align: center;
 }
@@ -23,7 +23,7 @@ nav ul li {
 }
 
 nav a {
-    color: rgb(59, 90, 129);
+    color: white;
     text-decoration: none;
 }
 
@@ -32,22 +32,40 @@ section {
     margin: 10px;
 }
 
+.project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-card {
+    background: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: 30%;
+    cursor: pointer;
+    position: relative;
+    transition: background 0.3s;
+}
+
+.project-card:hover {
+    background: #e0e0e0;
+}
+
+.details {
+    display: none;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 footer {
     text-align: center;
     padding: 10px;
     background: #333;
     color: white;
-}
-.next-btn {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    margin-top: 10px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.next-btn:hover {
-    background-color: #45a049;
 }
